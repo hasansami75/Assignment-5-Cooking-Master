@@ -1,0 +1,22 @@
+.div-arrange{
+    width: 300px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+.div-arrange img{
+    width: 200px;
+}
+#foodies img{
+    width: 200px;   
+}
+#foodies li{
+    list-style-type: none;
+}
+#show-food{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
