@@ -21,7 +21,7 @@ const latestInterface = meal =>{
         const divInfo =`
         <img src= "${find.strMealThumb}">
         <h6>"${find.strMeal}"</h6>
-        <button onclick="foodDetails(${find.idMeal})"> Details </button>
+        <button class="btn btn-outline-dark" onclick="foodDetails(${find.idMeal})"> Details </button>
          `;
         foodDiv.innerHTML = divInfo;
         foodList.appendChild(foodDiv);
@@ -43,16 +43,18 @@ const singleFoodDetails = food =>{
     const ul = document.createElement('ul');
         const foodIngredients = `
         <img src= "${food.strMealThumb}">
-        <li>"${food.strIngredient1}"</li>
-        <li>"${food.strIngredient2}"</li>
-        <li>"${food.strIngredient3}"</li>
-        <li>"${food.strIngredient4}"</li>
-        <li>"${food.strIngredient5}"</li>
-        <li>"${food.strIngredient6}"</li>
-        <li>"${food.strIngredient7}"</li>
-        <li>"${food.strIngredient8}"</li>
-        <li>"${food.strIngredient9}"</li>
-        <li>"${food.strIngredient10}"</li>
+        <h4>${food.strMeal}</h4>
+        <h6>Ingredients</h6>
+        <li>${food.strIngredient1}</li>
+        <li>${food.strIngredient2}</li>
+        <li>${food.strIngredient3}</li>
+        <li>${food.strIngredient4}</li>
+        <li>${food.strIngredient5}</li>
+        <li>${food.strIngredient6}</li>
+        <li>${food.strIngredient7}</li>
+        <li>${food.strIngredient8}</li>
+        <li>${food.strIngredient9}</li>
+        <li>${food.strIngredient10}</li>
         `
         ul.innerHTML = foodIngredients;
         foodItems.appendChild(ul);
