@@ -5,18 +5,16 @@
     padding: 50px;
     text-align: center;
 }
-
 .div-arrange img{
     width: 200px;
 }
 #foodies img{
-    width: 200px;   
+    width: 100%;   
 }
 #contain{
     background-color:#EDD263 ;
 }
 #foodies{
-    background-color: white;
     text-align: center;
     font-weight: bold;
     width: 500px;
