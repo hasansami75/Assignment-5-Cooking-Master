@@ -49,16 +49,16 @@ const singleFoodDetails = food => {
       <p class="card-text">Ingredients</p>
     </div>
     <ul class="list-group list-group-flush d-flex align-items-center">
-      <li class="list-group-item">${food.strIngredient1}</li>
-      <li class="list-group-item">${food.strIngredient2}</li>
-      <li class="list-group-item">${food.strIngredient3}</li>
-      <li class="list-group-item">${food.strIngredient4}</li>
-      <li class="list-group-item">${food.strIngredient5}</li>
-      <li class="list-group-item">${food.strIngredient6}</li>
-      <li class="list-group-item">${food.strIngredient7}</li>
-      <li class="list-group-item">${food.strIngredient8}</li>
-      <li class="list-group-item">${food.strIngredient9}</li>
-      <li class="list-group-item">${food.strIngredient10}</li>
+      <li class="list-group-item">${food.strIngredient1},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient2},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient3},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient4},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient5},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient6},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient7},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient8},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient9},${food.strMeasure1}</li>
+      <li class="list-group-item">${food.strIngredient10},${food.strMeasure1}</li>
     </ul>
     </div>    
    `
