@@ -5,6 +5,7 @@ const foodName = inputFood => {
         .then(data => latestInterface(data))
 }
 
+
 const searchButton = document.getElementById('search-button');
 searchButton.addEventListener('click', () => {
     const food = document.getElementById('food').value;
@@ -14,6 +15,7 @@ searchButton.addEventListener('click', () => {
 const latestInterface = meal => {
     let find = meal.meals;
     const foodList = document.getElementById('show-food');
+    foodList.innerText = "";
     find.forEach(find => {
         const foodDiv = document.createElement('div');
         foodDiv.className = 'div-arrange';
@@ -40,6 +42,7 @@ const foodDetails = idMeal => {
 const singleFoodDetails = food => {
     console.log(food);
     const foodItems = document.getElementById('foodies');
+    foodItems.innerText = "";
     const ul = document.createElement('ul');
     const foodIngredients = `
     <div class="card" style="width: 18rem;">
